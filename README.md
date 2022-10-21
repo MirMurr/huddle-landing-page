@@ -56,7 +56,7 @@ Users should be able to:
 ### What I learned
 
 - I coded the design for mobile and desktop sizes. The curved images aren´t appropriately sized for tablet sizes. 
-- Creating a form which sends the data to the given email address after submitting the form. I followed the instructions of the website [https://web3forms.com]. The code below:
+- Using contact form API: creating a form which sends the data to the given email address after submitting the form. I followed the instructions of the website [https://web3forms.com]. The code below:
 
 ```html
  <form action="https://api.web3forms.com/submit" method="POST" id="form">
