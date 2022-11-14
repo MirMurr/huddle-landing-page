@@ -256,6 +256,15 @@ footer {
 
 .footer-bg-desktop {
     margin-bottom: -.7rem;
+    width: 100% /*new line*/
+}
+
+.footer-bg-desktop img {
+    display: block; /*new line*/
+    object-fit: cover; /*new line*/
+    
+    
+    
 }
 
 div.f-conatiners {
