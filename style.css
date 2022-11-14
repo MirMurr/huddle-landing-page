@@ -255,7 +255,7 @@ footer {
 }
 
 .footer-bg-desktop {
-    margin-bottom: -.7rem;
+    margin-bottom: -.2rem;
     width: 100% /*new line*/
 }
 
@@ -431,6 +431,15 @@ div.attribution a {
     body > * {
         box-sizing: border-box;
         overflow-x: hidden;
+    }
+    
+      main::-webkit-scrollbar {
+        display: none; /*Safari and Opera*/
+    }
+
+    main {
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
     }
 
     .bg-img-top-mobile img, .bg-img-bottom-mobile img, .footer-bg-mobile img {
